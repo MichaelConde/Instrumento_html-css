@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+    font-size: 6vh;
+    color: #C262AF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+   flex-direction: column;
+    max-width: 30vh;
+    padding: 5vh;
+   margin-left: 5vh;
+    background-color: white;
+    box-shadow: 10px 10px 10px #dacdd9;
+    align-self: flex-start;
+}
+
+h2{
+    text-align: center;
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+    background-color: white;
+}
+p{
+    background-color: white;
+}
+#creacion{
+    margin-top: 20vh;
+ 
+}
