@@ -38,3 +38,21 @@ p{
     margin-top: 20vh;
  
 }
+footer{
+    padding-top: 20vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+hr{
+   
+    transform: translate(30%);
+    max-width: 130vh;
+    border-color: #c492ba;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    color: #C262AF;
+}
