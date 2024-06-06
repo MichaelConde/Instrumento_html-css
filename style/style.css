@@ -56,3 +56,41 @@ h6{
     padding: 1vh;
     color: #C262AF;
 }
+@media screen and (min-width:352px) and (max-width:480px){
+    body{
+        header {
+            display: flex;
+            justify-content: center;
+            padding: 10vh;
+            font-size: 3vh;
+            color: #C262AF;
+            max-width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #creacion{
+            margin-bottom: 20vh;
+         
+        }
+        section{
+            display: flex;
+           flex-direction: column;
+            max-width: 30vh;
+            padding: 5vh;
+       
+            background-color: white;
+            box-shadow: 10px 10px 10px #dacdd9;
+            align-self: flex-start;
+        }
+        hr{
+   
+            transform: translate(10%);
+            max-width: 80%;
+            border-color: #c492ba;
+        }
+       
+    }
+}
